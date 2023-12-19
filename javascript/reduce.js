@@ -71,4 +71,4 @@ const output4 = users.reduce((accumulator, user) => {
     return accumulator;
 }, []);//it's initial value and we want the result in the form of an array (names), not the object.
 
-console.log(output4);
+console.log(output4); 
