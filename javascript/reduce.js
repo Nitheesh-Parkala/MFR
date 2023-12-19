@@ -36,11 +36,15 @@ console.log(findMax(arr));
 
 const output1 = arr.reduce(function(max,curr){
     if(curr>max){
-     max= curr;
+     max= curr;  
     }
     return max
 },0)
 console.log(output1)
+// we can use this approach as well.
+
+// const output1 = arr.reduce((max, curr) => (curr > max ? curr : max), 0);
+// console.log(output1);
 
 
 //tricky example using reduce .
