@@ -26,3 +26,15 @@ const output2 = arr.map((x)=> x.toString(2))
 console.log(output2);
 
 // i have commented a map.js file in index.html.
+
+const users =[
+    {firstName: "Nitheesh", lastName: "Prabhu", age: "22"},
+    {firstName: "Dhoni", lastName: "Prabhu", age: "42"},
+    {firstName: "Puneeth", lastName: "RajKumar", age: "46"},
+    {firstName: "Rocking", lastName: "star", age: "39"}
+]; //array of objects
+
+//list of full names
+const output3 = users.map((x)=> x.firstName +" "+ x.lastName);
+console.log(output3)
+
